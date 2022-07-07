@@ -32,3 +32,16 @@ WantedBy=multi-user.target
 # Configuration
 
 TODO: How to edit config?
+
+# Modding
+
+See here for more details: https://help.akliz.net/docs/install-ark-survival-evolved-mods-on-a-server
+
+Subscribe to mods in the Steam Workshop. The mods will be downloaded
+to `<steam_dir>\steamapps\common\ARK\ShooterGame\Content\Mods`.
+
+Copy this entire folder to `<install_dir>/ShooterGame/Content/Mods`.
+
+In `<install_dir>/ShooterGame/Saved/Config/LinuxServer/GameUserSettings.ini`, inside of `[ServerSettings]`, edit
+the `ActiveMods` key to include a comma seperated list of the IDs of each of the mods. The IDs are the names of the
+folders.
