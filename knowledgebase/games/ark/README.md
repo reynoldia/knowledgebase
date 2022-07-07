@@ -4,9 +4,11 @@
 
 See here for more details: https://ark.fandom.com/wiki/Dedicated_server_setup
 
-To initially download the game, run `/home/steam/steamcmd +login anonymous +force_install_dir <install_dir> +app_update 376030 +quit`
+To initially download the game,
+run `/home/steam/steamcmd +login anonymous +force_install_dir <install_dir> +app_update 376030 +quit`
 
 One the game is installed, create a file named `/etc/systemd/system/ark-dedicated.service` with the following contents:
+
 ```ini
 [Unit]
 Description=ARK: Survival Evolved dedicated server

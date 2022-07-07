@@ -5,6 +5,7 @@
 https://developer.valvesoftware.com/wiki/SteamCMD
 
 Create a user for SteamCMD
+
 ```bash
 sudo useradd -m steam
 sudo passwd steam 
@@ -13,6 +14,7 @@ cd /home/steam
 ```
 
 Add dependencies and install steamcmd and dependencies
+
 ```bash
 sudo add-apt-repository multiverse
 sudo dpkg --add-architecture i386
